@@ -11,7 +11,6 @@ class Solution {
                 dp[i][i+1] = true;
                 left = i;
                 right = i+1;
-                System.out.println(s.substring(left,right+1));
             }
         }
 
